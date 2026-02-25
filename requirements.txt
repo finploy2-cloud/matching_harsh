@@ -1,0 +1,11 @@
+pandas
+openpyxl
+gspread
+oauth2client
+customtkinter
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+PyQt6
+mysql-connector-python

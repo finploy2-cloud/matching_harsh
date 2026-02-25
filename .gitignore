@@ -1,0 +1,16 @@
+# Secrets
+.env
+*.json
+
+# Documents
+*.pdf
+*.doc
+*.docx
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
+Thumbs.db

@@ -1,0 +1,25 @@
+- Open Naukri , go to Manage Searched 
+- search Part 1 , Part 2 and part 3 Housing finance and then add this 3 searches into new folder by Add to -> folder ->name date_15days_3parts
+- then Go to that folder just created and open pokemon extension scrap the data 
+- download the csv file and save it as input1 in matching_harsh -> job_matching_unscreend -> final_input (make sure older data is deleted)
+- delete all the data from the job_matching_screened folder also where we have to keep only python script and empty subfolders 
+- open both job_matching_screened and job_matching_unscreened in vs code
+- go to job matching unscreened
+- open terminal of job_matching_unscreend and run python main7.py 
+- select desgination which are related to our hl lap and then press continue 
+- enter 3 as department and 3 as product 
+- then a gui will open for the same desginations but for the screened candidates here we have to select select all then press continue 
+- enter 3 as department and 3 as product 
+- now see in the terminal all the files should be run 
+- After 5 mins there will be a file called unique_candidates_1 in output -> split_candidate -> unique_candidate_1 
+- There will be a button of + in the terminal press it and run python main15.py 
+- call harsh 
+- Open naukri launcher and press launch in the browser 
+- naukri will be opened in chrome. 
+- now come to the terminal and enter python run main15.py 
+- now user input has been ended . 
+- wait 2 mins 
+- open telegram - add a document - go to job_matching_screening -> final_output-> all_job_matches ->all_job_matches_filterd send this file to team write current-date_screened_candidates
+- open telegram - add a document - go to job_matching_unscreened -> final_output -> all_job_matches_duplicated send this file to team write current-dateunscreened_candidate
+- now open denstar 
+- upload the list saved at job_matching_screened -> densta_output and job_matching_unscreened - > densta_output.

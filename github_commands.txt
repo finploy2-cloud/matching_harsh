@@ -1,0 +1,42 @@
+:: CHANGE THIS TO YOUR PROJECT FOLDER
+cd D:\YOUR_FOLDER_NAME
+
+:: Delete old git history
+rm -rf .git
+
+:: Initialize new git repo
+git init
+
+:: Create .gitignore to block secrets
+echo *.json >> .gitignore
+echo *.env >> .gitignore
+echo credentials >> .gitignore
+echo *.key >> .gitignore
+echo *.pem >> .gitignore
+echo __pycache__/ >> .gitignore
+
+:: Commit .gitignore
+git add .gitignore
+git commit -m "Add gitignore"
+
+:: Add all files
+git add .
+git commit -m "Initial clean commit"
+
+:: CONNECT TO GITHUB (CHANGE THIS URL)
+git remote add origin https://github.com/USERNAME/REPO_NAME.git
+
+:: Set main branch
+git branch -M main
+
+:: Push to GitHub
+git push -u origin main
+
+
+
+when you have to update the files in github 
+git add .
+git commit -m "Updated files"
+git push
+
+

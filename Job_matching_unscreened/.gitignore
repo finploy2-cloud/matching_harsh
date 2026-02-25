@@ -1,0 +1,10 @@
+# Ignore Excel spreadsheet files
+*.xlsx
+~$*.xlsx
+
+# Optional: older Excel formats and macros
+*.xls
+*.xlsm
+
+# Keep Python files tracked explicitly (no change needed normally)
+!*.py

@@ -1,0 +1,181 @@
+=========================================
+FINPLOY – JOB MATCHING PROCESS (Simple Steps)
+=========================================
+
+This file explains the exact steps to run the Job Matching process.
+No technical knowledge is required. Follow the steps exactly.
+
+
+
+Universal Part :-  pip install -r requirements.txt  
+
+1. Open GitHub Desktop
+
+Click File → Clone Repository
+
+Select the Finploy repo
+
+Choose location: D:\matching_harsh  :- put this path in Local Path 
+
+Click Clone
+
+2. Open the project in Visual Studio Code
+
+In GitHub Desktop → Click Open in Visual Studio Code
+
+PART 2 — OPENING THE TERMINAL IN VS CODE
+
+Inside VS Code:
+
+Go to the top menu
+
+Click Terminal
+
+Click New Terminal
+
+You will now see a black window at the bottom of VS Code.
+
+PART 3 — RUNNING THE UNSCREENED MATCHING PROCESS
+1. Go to the correct folder
+
+In the terminal, type:
+ pip install -r requirements.txt  -- one time 
+cd Job_matching_unscreened
+
+
+Press Enter.
+
+2. Start the job matching process
+
+Type:
+
+python main7.py
+
+
+Press Enter.
+
+3. Follow the steps shown on screen
+
+First, select the designation
+
+Click Continue
+
+Enter department
+
+Enter product code
+
+Press OK
+
+4. WAIT – system will run automatically
+
+Subprocess will start.
+Do not close the terminal.
+Do not touch the computer.
+
+PART 4 — HOW TO KNOW THE PROCESS IS RUNNING / FINISHED
+To check if the process is running:
+
+Look at the VS Code terminal
+
+You will see lines moving, updating, printing messages
+
+This means the system is working
+
+To check if the process is finished:
+
+The terminal will stop printing new messages
+
+You will again see the blinking cursor (like this):
+
+D:\matching_harsh\Job_matching_unscreened>
+
+
+This means Job Matching Screened process is completed.
+
+PART 5 — RUN THE NAUKRI LOGIC CHECKER
+
+Now type:
+
+python main15.py
+
+
+Press Enter.
+
+A small window (GUI) will open.
+This will check whether Naukri login and logic is working.
+
+What happens next:
+
+The system opens Naukri profiles automatically
+
+Number of profiles = number of candidates
+
+Do not touch mouse or keyboard while it runs
+
+Wait until all profiles are opened
+
+PART 6 — ADD PROFILES AND DOWNLOAD CVS
+
+After the Naukri GUI completes:
+
+1. Create a new folder on desktop:
+
+Name format:
+
+currentDate_3parts_15days_new
+
+
+(Example: 03_12_2025_15days_new)
+
+2. Download each CV into this folder
+
+For every opened Naukri profile:
+
+Click Download CV
+
+Save inside your new folder
+
+3. Move the CVs into the correct location:
+
+Move all CV files into:
+
+D:\matching_harsh\Job_matching_unscreened\cv
+
+PART 7 — RUN KATHLOAN RECORDER + DATA SCRAPER
+1. Open Kathloan Recorder
+
+Start recording
+
+Run the scraper to export the CSV
+
+Save the CSV file
+
+2. Place that CSV inside:
+D:\matching_harsh\Job_matching_unscreened
+
+PART 8 — RUN THE CSV PROCESSING SCRIPT
+
+In the terminal, run:
+
+python main16.py
+
+
+This will process the Kathloan CSV file and complete the pipeline.
+
+🎉 THE PROCESS IS COMPLETE
+
+You have successfully run:
+
+Unscreened matching
+
+Screened logic
+
+Naukri logic
+
+CV download
+
+Kathloan scraping
+
+Final pipeline
+
+If anything fails, contact the Finploy tech team.
