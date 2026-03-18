@@ -12,7 +12,7 @@ from datetime import datetime
 # CONFIGURATION
 # ======================================================
 TXT_PATH = r'D:\matching_harsh\Job_matching_unscreened\final_input\LIST_1018032602_20260318-161417.txt'
-ALL_MATCHES_XLSX = r"D:\matching_harsh\Job_matching_unscreened\final_output\all_job_matches_phone (43).xlsx"
+ALL_MATCHES_XLSX = r"D:\matching_harsh\Job_matching_unscreened\final_output\all_job_matches_phone.xlsx"
 
 GS_WORKBOOK_NAME = 'Tracker -Candidates'
 TAB_SCREENING = 'SCREENING'
